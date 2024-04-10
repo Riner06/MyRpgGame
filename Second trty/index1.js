@@ -3,30 +3,6 @@ console.log("Hej!");
 let canvas = document.getElementById("canvas")
 let ctx = canvas.getContext("2d")
 
-// canvas.width="250" 
-// canvas.height="250"
-// canvas.style.width="1000"
-// canvas.style.height="1000"
-// Get the DPR and size of the canvas
-// const dpr = window.devicePixelRatio;
-// const rect = canvas.getBoundingClientRect();
-
-// // Set the "actual" size of the canvas
-// canvas.width = rect.width * dpr;
-// canvas.height = rect.height * dpr;
-
-// // Scale the context to ensure correct drawing operations
-// ctx.scale(dpr, dpr);
-
-// // Set the "drawn" size of the canvas
-// canvas.style.width = `${rect.width}px`;
-// canvas.style.height = `${rect.height}px`;
-
-
-
-
-
-
 
 
 const img = new Image(); // Create new img element
